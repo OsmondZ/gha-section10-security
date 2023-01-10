@@ -5,7 +5,7 @@ on:
       - opened
 jobs:
   assign-label:
-    permission:
+    permissions:
       issue: write
     runs-on: ubuntu-latest
     steps:
